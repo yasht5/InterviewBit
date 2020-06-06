@@ -10,7 +10,7 @@
   Given input array A = [1,1,2],
   Your function should return length = 2, and A is now [1,2]. 
 */
-*/Approach
+/*Approach
   Using two pointers iterate the array and update the pointer only when A[i]!=A[i+1].
   This solution is of O(N^2) time complexity.
 */
