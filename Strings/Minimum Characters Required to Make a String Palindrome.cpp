@@ -41,7 +41,7 @@
   int n=A.length();
   int x=1; //x=0;
   if(n==0) return 0;
-  for(int i=1 /*i=0*/;;i<n;i++){
+  for(int i=1 /*i=0*/;i<n;i++){
     // Idea is to find longest palindrome length starting from index 1 . Differece of this length from string length is the required value
     //If you want to start from index 0 then use x=0 and pass return result as n-1-x.
     int start=0, end=i, p=1;
