@@ -58,4 +58,4 @@
   }
   return n-x; //n-x-1;
 }
-        
+// This O(N) time solution.        
