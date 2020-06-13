@@ -18,10 +18,10 @@
 */
 /*  
   Approach
-  1. Brute force solution, O(N3):
+  1. Brute force solution, O(N^3):
     The obvious brute force solution is to pick all possible starting and ending positions for a substring, and verify if it is a palindrome. There are a total of C(N, 2) such substrings (excluding the trivial solution where a character itself is a palindrome).
 
-    Since verifying each substring takes O(N) time, the run time complexity is O(N3).
+    Since verifying each substring takes O(N) time, the run time complexity is O(N^3).
   2. Dynamic Programming.
      We maintain a boolean table[n][n] that is filled in bottom up manner. The value of table[i][j] is true, 
      if the substring is palindrome, otherwise false. To calculate table[i][j], we first check the value of table[i+1][j-1], 
